@@ -1,0 +1,248 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+.header {
+    height: 1512px;
+    width: 1512px;
+    background: #F8F8F8;
+}
+.container {
+    width: 1249px;
+    position: relative;
+    margin-left: 131px;
+    margin-right: 131px;
+}
+.header__top {
+    height: 148px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.social {
+    width: 62px;
+    height: 19px;
+    display: flex;
+    justify-content: space-between;
+}
+.social--black {
+
+}
+.social__link {
+
+}
+.social__link-img {
+    width: 19.2px;
+    height: 19.2px;
+}
+.header__social {
+    margin: 41px 504px 36px 24px;
+}
+.logo {
+
+}
+.logo__img {
+
+}
+.header__logo {
+    margin-top: 17px;
+    margin-bottom: 14px;
+    margin-right: 488px;
+}
+.header__logo-img {
+    width: 74.01px;
+    height: 65px;
+}
+.header__top-right {
+    width: 49.5px;
+    display: flex;
+    padding-top: 43px;
+    justify-content: space-between;
+}
+.header__phone {
+    /* margin-top: 43px; */
+    /* margin-right: 29px; */
+}
+.header__phone-link {
+
+}
+.header__phone-img {
+    width: 16.5px;
+    height: 16.5px;
+}
+.header__lang {
+    width: 28px;
+    height: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 44px; */
+    /* margin-right: 24px; */
+}
+.header__lang-choose {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+.header__lang-arrow {
+    width: 5px;
+    height: 2.5px;
+}
+
+
+.menu {
+    border-top: 1px solid #858685;
+    border-bottom: 1px solid #858685;
+}
+.menu__list {
+    width: 1248px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.menu__list-item {
+    margin-right: 62px;
+}
+.menu__link {
+    font-weight: 400;
+    font-size: 14px;
+    color: #314C51;
+    text-decoration-line: none;
+    -moz-text-decoration-line: none;
+}
+.menu__link--active {
+    position: relative;
+}
+.menu__link--active:before {
+    display: block;                  
+    width:58px;                    
+    content: '';                     
+    position: absolute;              
+    border-bottom: 0.5px solid #314C51;   
+    bottom: 1px;                                         
+}
+
+
+
+.header__content {
+    /* padding-top: 131px;
+    padding-right: 131px;
+    padding-left: 28px; */
+    margin-left: 28px;
+    margin-top: 130px;
+    /* padding-top: 130px; */
+    display: flex;
+}
+.header__num {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 131px; */
+    /* margin-right: 75px; */
+}
+.header__num-text {
+    font-weight: 800;
+    font-size: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    mix-blend-mode: screen;
+}
+.header__num-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+}
+.header__content-info {
+    /* margin-top: 131px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #1D1F1D;
+    height: 419px;
+}
+.header__title {
+    font-weight: 300;
+    font-size: 64px;
+    margin-bottom: 19px;
+    
+}
+.header__subtitle {
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 37px;
+}
+.button {
+    height: 63px;
+    align-items: center;
+    font-weight: 300;
+    font-size: 18px;
+    background: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.button--black {
+    border: 1px solid #1D1F1D;
+    color: #1D1F1D;
+}
+/* нет разделения на размеры кнопок, т.е. размеры разные, но нет логики */
+.header__button {
+    width: 154px;
+}

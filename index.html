@@ -1,13 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>11</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <div class="social social--black header__social">
+                    <a class="social__link" href="">
+                        <img class="social__link-img" src="social__link-img1.jpg" alt="">
+                    </a>
+                    <a class="social__link" href="">
+                        <img class="social__link-img" src="social__link-img2.jpg" alt="">
+                    </a>
+                </div>
+                <div class="logo header__logo">
+                    <img class="logo__img header__logo-img" src="logo__img.jpg" alt="">
+                </div>
+                <div class="header__top-right">
+                    <div class="header__phone">
+                        <a class="header__phone-link" href="">
+                            <img class="header__phone-img" src="header__phone-img.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="header__lang">
+                        <p class="header__lang-choose header__lang-choose--ru">RU</p>
+                        <img class="header__lang-arrow" src="header__lang-arrow.jpg" alt="">
+                    </div>
+                </div>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a class="menu__link menu__link--active" href="#">Участки</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__link" href="#">Место</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__link" href="#">История</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__link" href="#">Этапы</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__link" href="#">Команда</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__link" href="#">Документы</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__link" href="#">Прогулка</a>
+                        </li>
+                </nav>
+            </div>
+            <div class="header__content">
+                <div class="header__num">
+                    <video class="header__num-video" autoplay playsinline muted loop src="header__num-video.mp4"></video>
+                    <svg class="header__num-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 80" preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                          <mask id="mask" x="0" y="0" width="100%" height="100%" >
+                            <rect x="0" y="0" width="100%" height="100%" />
+                            <text class="header__num-text" x="72" y="50">11</text>
+                          </mask>
+                        </defs>
+                        <rect x="0" y="0" width="100%" height="100%" />
+                      </svg>
+                </div>
+                <div class="header__content-info">
+                    <h1 class="header__title">Жилой район <br> в Виймси</h1>
+                    <p class="header__subtitle">Одиннадцать приватных участков с собственным лесом</p>
+                    <button class="button button--black header__button">Участки</button>
+                </div>
+            </div>
+        </div>
+    </header>
     <script src="script.js"></script>
 </body>
 </html>
