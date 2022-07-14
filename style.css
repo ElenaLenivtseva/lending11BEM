@@ -176,7 +176,7 @@ table {
     padding-right: 131px;
     padding-left: 28px; */
     margin-left: 28px;
-    margin-top: 70px;
+    margin-top: 130px;
     /* padding-top: 130px; */
     display: flex;
 }
@@ -209,25 +209,31 @@ table {
 }
 
 
-
 .wrapper {
     width: 487px;
-    height: 620px;
+    height: 420px;
     /* width: 100%;
     height: 100%; */
     background: #F8F8F8;
     position: relative;
 }
-video {
-    height: 100%;
-    width: 486px;
-}
+/* .wrapper1 {
+    width: 487px;
+} */
 
 svg {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 400px;
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
+}
+
+video {
+    height: 100%;
+    width: 486px;
 }
 svg rect {
     fill: #F8F8F8;;
