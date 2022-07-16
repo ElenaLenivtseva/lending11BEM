@@ -403,3 +403,75 @@ table {
     margin-top: 57px;
     /* margin-bottom: 574px; */
 }
+
+/* БЛОК HISTORY */
+/* .history {
+    width: 1512px;
+    height: 982px;
+}
+.history__title {
+    padding-top: 141px;
+    margin-bottom: 33px;
+}
+.history__subtitle {
+
+}
+.history__content {
+    display: flex;
+    margin-top: 83px;
+}
+.history__content-info {
+    width: 368px;
+    margin-right: 48px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+    
+} */
+
+.history {
+
+}
+.history__content{
+    padding-top: 141px;
+    display: grid;
+	row-gap: 33px;
+	column-gap: 48px;
+	grid-template-rows: 58px 21px 50px 306px 63px;
+	grid-template-columns: 368px 368px 368px;
+	grid-template-areas: 
+		'h2 . . '
+	    'h3 . . '
+	    '. . . '
+	    'p1 p2 p3'
+	    '. . button';
+	width: 1512px;
+	height: 982px;
+	/* padding: 141px 156px 231px; */
+}
+.history__title {
+    grid-area: h2;
+    
+}
+.history__subtitle {
+    grid-area: h3;
+}
+.history__text {
+    width: 368px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+}
+.history__text--first {
+    grid-area: p1;
+}
+.history__text--second {
+    grid-area: p2;
+}
+.history__text--third {
+    grid-area: p3;
+}
+.history__button {
+    grid-area: button;
+	width: 154px;
+}
