@@ -32,6 +32,7 @@ body {
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -571,12 +572,52 @@ a {
 }
 
 /* БЛОК TEAM */
-/* .team {
+.team {
     width: 1512px;
     height: 982px;
     background: #314C51;
 }
 .team__img {
-    z-index: -100;
+    position: absolute;
+    top: 321px;
+    left: 306px;
+    width: 462px;
+    height: 535px;
+}
+.team__content {
+    padding-top: 141px;
+    display: grid;
+    row-gap: 147px;
+	column-gap: 0;
+	grid-template-rows: 112px 304px;
+	grid-template-columns: 472px 724px;
+	grid-template-areas: 
+		'team__name . '
+	    ' . team__list';
+}
+.team__name {
+    grid-area: team__name;
+}
+.team__title {
+    margin-bottom: 33px;
+    /* padding-top: 141px; */
+}
+.team__subtitle {
 
-} */
+}
+.team__list {
+    grid-area: team__list;
+    list-style: decimal;
+    
+}
+.team__member {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 120%;
+    color: #F8F8F8;
+    padding-left: 3px;
+}
+.team__member-name {
+    font-weight: 700;
+    text-transform: uppercase;
+}
