@@ -434,7 +434,7 @@ a {
 } */
 
 .history {
-
+    background: #F8F8F8;
 }
 .history__content{
     padding-top: 141px;
@@ -685,3 +685,79 @@ a {
     width: 31.11px;
     height: 31.11px;
 }
+
+/* БЛОК INFRASTRUCTURE */
+/* фон должен быть #F7F4F4 по макету, но это скорее всего ошибка дизайнера*/
+.infrastructure {
+    background: #F8F8F8;
+    /* background: #F7F4F4; */
+}
+.infrastructure__title {
+    padding-top: 96px;
+    margin-bottom: 75px;
+}
+.infrastructure__list {
+    width: 1129px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-bottom: 104px;
+}
+.infrastructure__list-item {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #1D1F1D;
+    margin-right: 30px;
+}
+.infrastructure__list-item--active {
+    font-weight: 500;
+    font-size: 20px;
+}
+.infrastructure__list-item:hover {
+    cursor: pointer;
+}
+
+.infrastructure__content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 134px;
+}
+.infrastructure__slider-img {
+    width: 788px;
+    height: 448px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin-right: 52px;
+}
+.infrastructure__slider-info {}
+.infrastructure__subtitle {
+    margin-bottom: 8px;
+    color: #1D1F1D;
+    line-height: 120%;
+}
+.subtitle--s {
+    font-weight: 400;
+    font-size: 24px;    
+}
+.infrastructure__slider-text {
+    margin-bottom: 35px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.infrastructure__buttons {
+    width: 106px;
+    display: flex;
+    justify-content: space-between;
+}
+.infrastructure__button {
+    width: 36.4px;
+    height: 36.4px;
+}
+.infrastructure__button:hover {
+    cursor: pointer;
+}
+.infrastructure__button--left {}
+.infrastructure__button--right {}
