@@ -86,6 +86,68 @@
         </div>
     </header>
     <main>
+        <section class="areas">
+            
+                
+            <!-- блок areas большой, с несколькими фоновыми изображениями, пришлось разделить на части -->
+            <div class="areas__part1">
+                <!-- блок areas__part1-1 нужен для фонового изобр., градиента на нем, а также нижней зеленой заливки. Поэтому он абсолютно пустой - он только фон-->
+                <div class="areas__part1-1"></div>
+
+                <!-- areas__part1-2-content абсолютно позиционируется относительно родителя - areas__part1, чтобы быть поверх блока areas__part1 (без родителя реализовать это 
+                не выходит) -->
+                <div class="areas__part1-2-content">
+                    <div class="container container--s">
+                        <div class="areas__features">
+                            <div class="areas__forest">
+                                <img class="areas__features-img" src="areas__features-img1.png" alt="">
+                                <h4 class="subtitle subtitle--s areas__subtitle">Лес</h4>
+                                <p class="areas__features-text">Жизнь в окружении леса</p>
+                            </div>
+                            <div class="areas__sea">
+                                    <img class="areas__features-img" src="areas__features-img2.png" alt="">
+                                <h4 class="subtitle subtitle--s areas__subtitle">Море</h4>
+                                <p class="areas__features-text">В 311 метрах от дома ваше море</p>
+                            </div>
+                            <div class="areas__air">
+                                <img class="areas__features-img" src="areas__features-img3.png" alt="">
+                                <h4 class="subtitle subtitle--s areas__subtitle">Воздух</h4>
+                                <p class="areas__features-text">Вдыхайте морской и хвойный воздух</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </div>
+            <div class="areas__part2">
+                <img class="areas__part2-img1" src="areas__part2-img1.png" alt="">
+                
+                    <div class="areas__part2-circle">
+                        <p class="areas__part2-circle-info">311 м</p>
+                        <img class="areas__part2-circle-arrow" src="areas__part2-circle-arrow.png" alt="">
+                        <p class="areas__part2-circle-info">Море</p>
+                    </div>
+                
+            </div>
+            
+            <div class="areas__part3">
+                <img class="areas__part3-img" src="areas__part3-img.png" alt="" usemap="#areas__plan">
+                <map name="areas__plan">
+                    <area shape="poly" coords="417,37,609,51,604,83,550,117,444,117" href="#" alt="">
+                    <area shape="poly" coords="476,135,557,137,596,11,557,271,464,271" href="#" alt="">
+                    <area shape="poly" coords="461,278,556,278,515,435,412,378" href="#" alt="">
+                    <area shape="poly" coords="411,387,513,442,487,541,390,516,338,431" href="#" alt="">
+                    <area shape="poly" coords="387,521,485,546,444,707,351,617" href="#" alt="">
+                    <area shape="poly" coords="309,442,370,545,346,613,222,492" href="#" alt="">
+                    <area shape="poly" coords="227,238,312,402,233,443,191,433,128,370" href="#" alt="">
+                    <area shape="poly" coords="259,201,430,270,385,360,321,397,236,223" href="#" alt="">
+                    <area shape="poly" coords="244,37,389,40,429,136,256,141" href="#" alt="">
+                    <area shape="poly" coords="93,11,232,22,252,192,56,142" href="#" alt="">
+                    <area shape="poly" coords="53,150,247,201,110,380,13,289" href="#" alt="">
+                </map>
+            </div>
+            <!-- areas__clouds стоят в самом низу, потому что так отображаются верно - на весь блок areas, а не на часть него -->
+            <div class="areas__clouds"></div>
+        </section>
         <section class="place">
             <div class="container container--s">
                 <h2 class="title place__title">Место для вашего дома:
