@@ -1,0 +1,97 @@
+.steps {
+    /* width: 1512px; */
+    
+    background: #FFFFFF;
+}
+.steps__title {
+    /* padding-top: 104px;
+    margin-bottom: 117px; */
+    padding-top: calc(112px + (104 - 112) * ((100vw - 488px) / (1512 - 488)));
+    margin-bottom: calc(80px + (117 - 80) * ((100vw - 488px) / (1512 - 488)));
+}
+.steps__content {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-bottom: 140px; */
+    padding-bottom: calc(100px + (140 - 100) * ((100vw - 488px) / (1512 - 488)));;
+}
+.steps__item {
+    width: 263px;
+    height: 224px;
+    margin-right: 48px;
+    position: relative;
+}
+.steps__item:last-child {
+    margin-right: 0;
+}
+.steps__img {
+    /* width: 56px;
+    height: 55px; */
+}
+.steps__item-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.steps__img-1 {
+    width: 55.5px;
+    height: 39.5px;
+    margin-bottom: 25px;
+}
+.steps__img-2 {
+    width: 56px;
+    height: 53px;
+    margin-bottom: 21px;
+}
+.steps__img-3 {
+    width: 45px;
+    height: 56.5px;
+    margin-bottom: 17px;
+}
+.steps__img-4 {
+    width: 33.1px;
+    height: 51px;
+    margin-bottom: 22px;
+}
+.steps__item-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.1px;
+    color: #314C51;
+    margin-bottom: 23px;
+}
+.steps__item-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.1px;
+    color: #1D1F1D;
+    margin-bottom: 3px;
+}
+.steps__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.1px;
+    color: #1D1F1D;
+    margin-bottom: 34px;
+}
+.steps__link {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.1px;
+    text-decoration-line: underline;
+    color: #314C51;
+}
+.steps__item-1::before, .steps__item-2::before, 
+.steps__item-3::before {
+    position: absolute;
+    top: 84px;
+    left: 104px;
+    content: "";
+    width: 160px;
+    height: 1px;
+    background: #CFD3D0;
+}

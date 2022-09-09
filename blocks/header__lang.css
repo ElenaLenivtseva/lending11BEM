@@ -1,0 +1,15 @@
+.menu-lang {
+    width: 28px;
+    height: 13px;
+    display: flex;
+    align-items: center;
+}
+.menu-lang-choose {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+.menu-lang-arrow {
+    width: 5px;
+    height: 2.5px;
+}

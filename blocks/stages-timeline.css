@@ -1,0 +1,232 @@
+.stages__infogr-top {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    /* top: 153px;
+    left: 60px;
+    width: 758px; */
+    top: calc(143px + (175 - 143) * ((100vw - 900px) / (1512 - 900)));
+    left: calc(60px + (131 - 60) * ((100vw - 900px) / (1512 - 900)));
+    width: calc(758px + (1202 - 758) * ((100vw - 900px) / (1512 - 900)));
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #858685;
+}
+.timeline {
+    margin-top: calc(82px + (122 - 82) * ((100vw - 390px) / (1512 - 390)));
+    padding-bottom: calc(81px + (183 - 81) * ((100vw - 390px) / (1512 - 390)));
+    /* width: 974px; */
+    /* height: 38px; */
+    display: flex;
+    align-items: center;
+}
+
+.timeline__big {
+    /* width: 38px; */
+    width: 2.7em;
+    /* width: 7%; */
+    /* height: 38px; */
+    height: 2.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #C4C4C4;
+    /* background: #314C51; */
+    color: #F8F8F8;
+}
+.timeline__small {
+    /* width: 20px; */
+    width: 1.4rem;
+    
+    /* height: 20px; */
+    height: 1.4rem;
+    border-radius: 50%;
+    background: #C4C4C4;
+    /* background: #314C51; */
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.timeline__small span {
+    opacity: 0;
+}
+.timeline__line {
+    /* width: 64px; */
+    width: 4.5rem;
+    height: 2px;
+    background: #C4C4C4;
+    pointer-events:none;
+}
+.timeline__line-8 {
+    /* width: 47px; */
+    width: 3.3rem;
+}
+.timeline__line-5, .timeline__line-7 {
+    /* width: 95px; */
+    width: 6.7rem;
+}
+.timeline__line-1, .timeline__line-4 {
+    /* width: 55px; */
+    width: 3.9rem;
+}
+.timeline--active {
+    background: #314C51;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+/* .timeline--pulse {
+    transform: scale(1);
+    animation: pulses 1000ms linear;
+    -webkit-animation: pulses 1000ms linear;
+}
+@-webkit-keyframes pulses {
+    0% { -webkit-transform: scale(0.9); opacity: 0.7; }
+    50% { -webkit-transform: scale(1); opacity: 1; }
+    100% { -webkit-transform: scale(0.9); opacity: 0.7; }
+} */
+
+/* @keyframes pulses {
+    0% { transform: scale(0.9); opacity: 0.7; }
+    50% { transform: scale(1); opacity: 1; }
+    100% { transform: scale(0.9); opacity: 0.7; }
+} */
+.timeline__big {
+    text-align: left;
+    position: relative;
+    font-weight: 500;
+    font-size: calc(12px + (18 - 12) * ((100vw - 900px) / (1512 - 900)));
+    line-height: 22px;
+}
+.timeline__big-1::before, .timeline__big-4::before{
+    position: absolute;
+    /* top: -25px; */
+    top: -1.7em;
+    color: #1D1F1D;
+}
+.timeline__big-1::before {
+    content: "0%";
+
+}
+
+.timeline__big-4::before {
+    content: "100%";
+}
+
+.timeline__big-1::after, .timeline__big-2::after, .timeline__big-3::after, .timeline__big-4::after {
+    position: absolute;
+    /* top: 60px; */
+    top: 4.2em;
+    left: 5px;
+    color: #1D1F1D;
+}
+.timeline__big-1::after {
+    content: "Подготовительные работы";
+}
+.timeline__big-2::after {
+    content: "Проектирование дорог";
+}
+.timeline__big-3::after {
+    content: "Строительство дорог";
+}
+.timeline__big-4::after {
+    content: "Инфраструктура готова";
+}
+.timeline__small{
+    text-align: center;
+    font-size: 8px;
+    position: relative;
+}
+.timeline__small-1::before, .timeline__small-2::after, 
+.timeline__small-3::before, .timeline__small-4::after, .timeline__small-5::before, .timeline__small-6::before, .timeline__small-7::after, .timeline__small-8::before {
+    position: absolute;
+    color: #1D1F1D;
+}
+
+.timeline__small-1::before {
+    content: 'Геология';
+    /* top: -20px; */
+    top: -1.4em;
+    left: -8px;
+}
+.timeline__small-2::after {
+    content: 'Геодезия';
+    /* top: 22px; */
+    top: 3.5em;
+    left: -8px;
+}
+.timeline__small-3::before {
+    content: 'Дендрология';
+    /* top: -20px; */
+    top: -1.4em;
+    left: -16px;
+}
+.timeline__small-4::after {
+    content: 'Проектирование коммуникаций';
+    /* top: 22px; */
+    top: 3.5em;
+    left: -20px;
+}
+.timeline__small-5::before {
+    content: 'Проектирование дорог';
+    /* top: -20px; */
+    top: -2.4em;
+    left: -22px;
+}
+.timeline__small-6::before {
+    content: 'Подготовка участков';
+    /* top: -20px; */
+    top: -2.4em;
+    left: -12px;
+}
+.timeline__small-7::after {
+    content: 'Строительство коммуникаций';
+    /* top: 22px; */
+    top: 3.5em;
+    left: -20px; 
+}
+.timeline__small-8::before {
+    content: 'Строительство дорог';
+    top: -20px;
+    left: -18px;
+}
+
+
+
+.timeline__marker {
+    display: none;
+    position: relative;
+    width: 69px;
+    height: 32px;
+}
+
+.timeline__marker-main {
+    width: 69px;
+    height: 32px;
+    border-radius: 5px;
+    background: #314C51;
+    color: #F8F8F8;
+    text-align: center;
+    padding: 8px 18px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+.timeline__marker-tail {
+    position: absolute;
+    left: 40%;
+}

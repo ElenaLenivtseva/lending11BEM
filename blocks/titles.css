@@ -1,0 +1,42 @@
+.title {
+    font-weight: 400;
+    /* font-size: 64px; */
+    font-size: calc(36px + (64 - 36) * ((100vw - 488px) / (1512 - 488)));
+    color: #1D1F1D;
+}
+.title--white {
+    color: #F8F8F8
+}
+.subtitle {
+    font-weight: 500;
+    /* font-size: 22px; */
+    font-size: calc(18px + (22 - 18) * ((100vw - 488px) / (1512 - 488)));
+}
+.subtitle--white {
+    color: #F8F8F8
+}
+.title--xs {
+    font-size: 36px;
+    line-height: 90%;
+}
+.subtitle--s {
+    font-weight: 400;
+    font-size: 24px;    
+}
+.title-mini-block {
+    font-weight: 500;
+    /* font-size: 14px; */
+    line-height: 120%;
+    letter-spacing: 0.1px;
+    color: #F8F8F8;
+}
+.subtitle-mini-block {
+    font-weight: 300;
+    /* font-size: 14px; */
+    line-height: 120%;
+    letter-spacing: 0.1px;
+    color: #F8F8F8;
+}
+.title-mini-block--black, .subtitle-mini-block--black {
+    color: #1D1F1D;
+}

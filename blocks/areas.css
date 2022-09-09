@@ -1,0 +1,171 @@
+.areas {
+    position: relative;
+}
+
+.areas__part1 {
+    position: relative;
+    height: 760px;
+    /* width: 1512px; */
+    overflow: hidden;
+}
+.areas__part1-1 {
+    height: 760px;
+    /* width: 1512px; */
+    width: 100%;
+    position: relative;
+    /* background-image: url(areas__bg1.png); */
+    /* background: url("areas__bg1.png") no-repeat left top, linear-gradient(180deg, #F8F8F8 0%, rgba(248, 248, 248, 0.8) 18.12%, rgba(248, 248, 248, 0.7) 30.84%, rgba(248, 248, 248, 0) 43.08%, rgba(248, 248, 248, 0) 52.88%); */
+    
+    background: #AFAB4A;
+    
+    background-image: url("../images/areas/areas__bg1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    /* background-image: url("areas__bg1.png"), linear-gradient(#eb01a5, #d13531);  */
+}
+.areas__part1-1:after {
+    content: "";
+	display: block;    
+	width: 100%;
+	height: 100%;    
+	position: absolute;
+	top: 0;      
+	left: 0;   
+	background: transparent;
+	background-image: linear-gradient(180deg, #F8F8F8 0%, rgba(248, 248, 248, 0.8) 18.12%, rgba(248, 248, 248, 0.7) 30.84%, rgba(248, 248, 248, 0) 43.08%, rgba(248, 248, 248, 0) 52.88%);
+}
+.areas__part1-2-content {
+    height: 875px;
+    /* width: 1512px; */
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.areas__features {
+    /* width: 1200px; */
+    display: grid;
+    column-gap: 48px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas: 
+		'areas__forest areas__sea areas__air ';
+}
+.areas__forest {
+   grid-area: areas__forest;
+}
+.areas__features-img {
+    height: 47px;
+    margin-bottom: 29px;
+}
+.areas__subtitle {
+    margin-bottom: 30px;
+}
+.areas__features-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+}
+.areas__sea {
+    grid-area: areas__sea;
+}
+.areas__air {
+    grid-area: areas__air;
+}
+.areas__part2 {
+    /* width: 1512px; */
+    width: 100%;
+    height: 293px;
+    background: #AFAB4A;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.areas__part2-img1 {
+    position: absolute;
+    width: 100%;
+}
+.areas__part2-circle {
+    /* width: 214px;
+    height: 214px; */
+    width: calc(126px + (214 - 126) * ((100vw - 390px) / (1512 - 390)));
+    height: calc(126px + (214 - 126) * ((100vw - 390px) / (1512 - 390)));
+    position: absolute;
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    border: 1px solid #F8F8F8;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-filter: b;
+}
+.areas__part2-circle-info {
+    font-weight: 400;
+    font-size: calc(16px + (20 - 16) * ((100vw - 390px) / (1512 - 390)));
+    text-align: center;
+    color: #F8F8F8;
+}
+.areas__part2-circle-arrow {
+    width: calc(20px + (35 - 20) * ((100vw - 390px) / (1512 - 390)));
+    height: calc(83px + (141.5 - 83) * ((100vw - 390px) / (1512 - 390)));
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.areas__part3 {
+    /* width: 1512px; */
+    width: 100%;
+    /* height: 941px; */
+    
+    background-image: url("../images/areas/areas__part3-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    background-position: center bottom;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+/* z-index здесь нужен для того, чтобы map перекрыла облака, которые находятся поверх всего блока areas */
+.areas__part3-img {
+    z-index: 2;
+    /* width: 622px; 
+    height: 709px; */
+    margin-top: 156px;
+}
+.areas__plan2-map {
+
+}
+.areas__plan-map {
+
+}
+.areas__plan-img {
+
+}
+.areas__plan2-img {
+
+}
+.areas__clouds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    background-image: url("../images/areas/areas__clouds.png");
+    /* width: 1512px; */
+    width: 100%;
+    height: 100%;
+    animation: cloud 90s linear infinite;
+    -webkit-animation: cloud 90s linear infinite;
+    overflow: hidden;
+}
+@keyframes cloud {
+    0% {background-position: 0px;}
+    100% {background-position: 1986px;}
+}

@@ -1,0 +1,96 @@
+.rules {
+    /* width: 1512px; */
+    /* height: 608px; */
+    background: #314C51;
+}
+.rules__img-out {
+    /* top: 100px; */
+    top: calc(64px + (100 - 64) * ((100vw - 390px) / (1512 - 390)));
+    /* right: 294px; */
+    right: calc(70px + (70 - 48) * ((100vw - 390px) / (1512 - 390)));;
+}
+
+.rules__title {
+    /* padding-top: 115px;
+    margin-bottom: 38px; */
+    padding-top: calc(48px + (115 - 48) * ((100vw - 390px) / (1512 - 390)));
+    margin-bottom: calc(13px + (38 - 13) * ((100vw - 390px) / (1512 - 390)));
+}
+
+.rules__subtitle {
+    
+}
+.rules__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    /* margin-bottom: 99px; */
+   /* margin-top: 81px; */
+   margin-bottom: calc(32px + (99 - 32) * ((100vw - 390px) / (1512 - 390)));
+   margin-top: calc(48px + (81 - 48) * ((100vw - 390px) / (1512 - 390)));
+}
+.rules__item {
+    /* width: 208px; */
+    /* width: calc(413px + (208 - 413) * ((100vw - 390px) / (1512 - 390))); */
+    width: calc(320px + (188 - 320) * ((100vw - 390px) / (1512 - 390)));
+    height: 86px;
+    
+    padding: calc(20px + (20 - 30) * ((100vw - 1700px) / (1512 - 1700)));
+    display: flex;
+    /* в макете беда с отступами, размером изображений и пр. - поэтому решила выровнять по центру */
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #F8F8F8;
+    border-radius: 15px;
+}
+.rules__item-img {
+    width: 36px;
+    height: 36px;
+    margin-right: 14px;
+}
+.rules__item-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 14px;
+}
+/* .rules__item-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.1px;
+    color: #F8F8F8;
+}
+.rules__item-subtitle {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.1px;
+    color: #F8F8F8;
+} */
+.rules__addition {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    /* padding-bottom: 120px; */
+    padding-bottom: calc(75px + (120 - 75) * ((100vw - 390px) / (1512 - 390)));;
+}
+.rules__add-info {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.rules__info-img {
+    width: 20px;
+    height: 20px;
+}
+.rules__info-txt {
+    font-weight: 500;
+    /* font-size: 16px; */
+    font-size: calc(14px + (16 - 14) * ((100vw - 390px) / (1512 - 390)));
+    line-height: 120%;
+    letter-spacing: 0.1px;
+    color: #F8F8F8;
+}

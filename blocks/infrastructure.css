@@ -1,0 +1,95 @@
+.infrastructure {
+    background: #F8F8F8;
+    padding-top: calc(48px + (96 - 48) * ((100vw - 390px) / (1512 - 390)));
+    padding-bottom: calc(44px + (134 - 44) * ((100vw - 390px) / (1512 - 390)));
+    /* width: 1512px; */
+    /* background: #F7F4F4; */
+}
+.infrastructure__title {
+    margin-bottom: calc(25px + (75 - 25) * ((100vw - 390px) / (1512 - 390)));
+}
+.infrastructure__list {
+    /* width: 1129px; */
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-bottom: calc(54px + (104 - 54) * ((100vw - 390px) / (1512 - 390)));
+}
+.infrastructure__list-item {
+    font-weight: 300;
+    font-size: calc(14px + (20 - 14) * ((100vw - 390px) / (1512 - 390)));
+    line-height: 160%;
+    color: #1D1F1D;
+    margin-right: calc(18px + (30 - 18) * ((100vw - 390px) / (1512 - 390)));
+}
+.infrastructure__list-item--active {
+    font-weight: 500;
+}
+.infrastructure__list-item:hover {
+    cursor: pointer;
+}
+.infrastructure__items {
+    position: relative;
+}
+.infrastructure__item {
+    position: absolute;
+    top: 0;
+}
+.infrastructure__content {
+    display: none;
+}
+.infrastructure__content--active {
+    display: flex;
+    flex-wrap: wrap;
+}
+.infrastructure__content--1 {
+
+}
+.infrastructure__content--2 {
+    
+}
+.infrastructure__content--3 {
+    
+}
+.infrastructure__slider-img {
+    /* width: 788px; */
+    height: 448px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin-right: 52px;
+}
+.infrastructure__slider-info {}
+.infrastructure__subtitle {
+    margin-bottom: 8px;
+    color: #1D1F1D;
+    line-height: 120%;
+    font-size: calc(22px + (24 - 22) * ((100vw - 390px) / (1512 - 390)));
+}
+.subtitle--s {
+    font-weight: 400;
+    font-size: 24px;    
+}
+.infrastructure__slider-text {
+    
+    margin-bottom: calc(16px + (35 - 16) * ((100vw - 390px) / (1512 - 390)));
+    font-weight: 300;
+    font-size: calc(16px + (18 - 16) * ((100vw - 390px) / (1512 - 390)));
+}
+.infrastructure__buttons {
+    width: 106px;
+    display: flex;
+    justify-content: space-between;
+}
+.infrastructure__button {
+    width: 36.4px;
+    height: 36.4px;
+}
+.infrastructure__button:hover {
+    cursor: pointer;
+}
+.infrastructure__button--left {}
+.infrastructure__button--right {}

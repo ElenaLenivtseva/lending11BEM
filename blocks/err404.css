@@ -1,0 +1,82 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.err__content {
+    position: relative;
+    padding-top: 297px;
+    width: 100%;
+    /* height: 481px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 224px;
+}
+svg text {
+    font-weight: 700;
+    font-size: 300px;
+}
+.err__number{
+    height: 100%;
+    width: 100%;
+}
+
+/* h1 {
+    font-weight: 700;
+    font-size: 300px;
+} */
+.err__img-out {
+    width: 462px;
+    height: 525px;
+    z-index: -1;
+}
+.err__question {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #1D1F1D;
+    margin-top: 79px;
+    margin-bottom: 37px;
+}
+.err__button {
+    width: 245px;
+   
+}
+
+/* .wrapper {
+    width: 100%;
+    height: 100%;
+    background: #F8F8F8;
+    position: relative;
+    padding-bottom: 244px;
+}
+
+
+svg {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 900px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+
+img {
+    height: 100%;
+   
+    width: 100%;
+}
+svg rect {
+    fill: #F8F8F8;;
+    mask: url(#mask);
+} */

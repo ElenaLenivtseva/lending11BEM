@@ -1,0 +1,21 @@
+section, header, footer {
+    /* width: calc(390px + (1512 - 390) * ((100vw - 390px) / (1512 - 390))); */
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.container {
+    /* width: 1249px; */
+    width: calc(418px + (1249 - 418) * ((100vw - 390px) / (1512 - 390)));
+    position: relative;
+    /* padding: 0 131px; */
+    padding-left: calc(35px + (131 - 35) * ((100vw - 390px) / (1512 - 390)));
+    padding-right: calc(35px + (131 - 35) * ((100vw - 390px) / (1512 - 390)));
+    margin: 0 auto;
+}
+.container--s {
+    width: calc(320px + (1197 - 320) * ((100vw - 390px) / (1512 - 390)));
+    /* width: 1197px; */
+    
+}

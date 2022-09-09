@@ -1,0 +1,4 @@
+section, header, footer {
+    width: calc(488px + (1512 - 488) * ((100vw - 488px) / (1512 - 488)));
+    
+}

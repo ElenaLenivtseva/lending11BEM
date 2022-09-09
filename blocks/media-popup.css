@@ -1,0 +1,34 @@
+@media screen and (max-width: 900px) {
+    .easter-popup-img {
+        width: 292px;
+    }
+    .easter-popup {
+        width: auto;
+        row-gap: 32px;
+        grid-template-rows: 192px auto auto auto;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            'img'
+            'poem'
+            'quote'
+            'backstory';
+    }
+    /* .send-popup {
+        width: 320px;
+        padding: 46px 24px;
+  
+    }
+    .send-popup__form {
+        width: 100%;
+    } */
+    /* .send-popup__button {
+        width: 272px;
+    } */
+}
+@media screen and (max-width: 500px) {
+    .doc-popup__send {
+        flex-direction: column-reverse;
+        gap: 16px;
+    }
+    
+}

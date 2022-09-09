@@ -1,0 +1,21 @@
+.social {
+    width: 62px;
+    height: 19px;
+    display: flex;
+    justify-content: space-between;
+}
+.social--black {
+
+}
+.social__link {
+
+}
+.social-link-img {
+    width: 19.2px;
+    height: 19.2px;
+}
+.social--white {}
+.social-link-img--m {
+    width: 31.11px;
+    height: 31.11px;
+}

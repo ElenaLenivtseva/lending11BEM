@@ -1,0 +1,139 @@
+.slider {
+    /* width: 1512px; */
+    background: #F8F8F8;
+    padding-bottom: 72px;
+}
+.slider__top {
+    max-width: 100%;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.slider__back-link {
+    display: flex;
+    align-items: center;    
+    cursor: pointer;
+}
+.slider__top-img {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+.slider__top-text {
+    font-weight: 500;
+    font-size: 12px;
+    color: #1D1F1D;
+}
+.slider__content {
+    margin-top: 105px;
+    display: flex;
+    width: 1193px;
+    margin-bottom: 59px;
+    
+    /* flex: 1 1 50%; */
+}
+.slider__img {
+    width: 57%;
+    margin-right: 51px;
+}
+.slider__main {
+    height: 570px;
+    max-width: 100%;
+    margin-bottom: 5px;
+    position: relative;
+}
+.slider__prew-img {
+    border: 2px solid #DBDBDB;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.slider__prew-img:not(:last-child){
+    margin-right: 3px;
+}
+.slider__img-item{
+    
+}
+
+.slider__main-img {
+    object-fit: cover;
+    border: none;
+}
+.slider__arrow {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+.slider__arrow-left {
+    left: 20px;
+}
+.slider__arrow-right {
+    right: 20px;
+}
+.slider__preview {
+    /* margin-bottom: 59px; */
+}
+.slider__basic {
+    display: flex;
+    
+}
+.slider__basic-item {
+    display: flex;
+    align-items: center;
+}
+.slider__basic-item:not(:last-child){
+    margin-right: 71px;
+}
+.slider__basic-img {
+    margin-right: 20px;
+    width: 44px;
+    height: 51px;
+}
+.slider__basic-text {
+}
+
+.slider__basic-title {
+}
+
+.slider__text {
+    font-weight: 500;
+    font-size: 12px;
+    color: #1D1F1D;
+    line-height: 1.5;
+}
+
+.slider__subtitle {
+    margin-bottom: 8px;
+}
+.slider__cadastral, .slider__status {
+    color: #7777;
+    line-height: 1.7;
+}
+
+.slider__features {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    
+}
+.slider__main-text {
+}
+.slider__price {
+    font-size: 18px;
+    line-height: 1.8;
+}
+.slider__appeal {
+    margin-top: 91px;
+    margin-bottom: 29px;
+    font-weight: 300;
+    font-size: 14px;
+
+
+}
+.slider__appeal-condition {
+    font-weight: 500;
+}
+
+.slider__button {
+}

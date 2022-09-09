@@ -1,0 +1,1 @@
+bindModal('.steps__link-arch', '.popup__wrapper-arch', '.arch-popup__close');

@@ -1,0 +1,14 @@
+.logo {
+
+}
+.logo__img {
+
+}
+.logo-author {
+    display: flex;
+    justify-content: center;
+}
+.logo-author__img {
+    width: 98px;
+    height: 16px;
+}

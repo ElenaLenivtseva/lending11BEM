@@ -1,0 +1,11 @@
+.stages {
+    /* width: 1512px; */
+    background: #F8F8F8;
+    padding-top: calc(54px + (121 - 54) * ((100vw - 390px) / (1512 - 390)));
+}
+.stages__title {
+    margin-bottom: calc(13px + (19 - 13) * ((100vw - 390px) / (1512 - 390)));
+}
+.stages__subtitle {
+    /* margin-bottom: 102px; */
+}
